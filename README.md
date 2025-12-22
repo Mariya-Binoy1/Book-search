@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+useState → stores data (like variables)
+useEffect → runs code automatically when something changes
+useCallback → remembers a function so it doesn’t get recreated again and again
+useContext → allows components to use shared data
+
+const AppContext = React.createContext();
+Think of Context like a big storage box.
+Any component can take data from this box without passing props.
+
