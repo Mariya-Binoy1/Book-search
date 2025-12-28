@@ -17,7 +17,7 @@ const Navbar = () => {
             <img src={logoImg} alt="" />
             <span className="text-uppercase fw-7 fs-24 ls-1">BookHub</span>
           </Link>
-          <button type='button' className='navbar-toggler-btn' onclick={handleNavbar}>
+          <button type='button' className='navbar-toggler-btn' onClick={handleNavbar}>
             <HiOutlineMenuAlt3 size={35} style={{color:`${toggleMenu?'#fff':'#010101'}`}}/>
           </button>
         </div>
