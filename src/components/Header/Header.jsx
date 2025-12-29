@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import SearchForm from '../SearchForm/SearchForm'
 import './Header.css'
-import Book from '../BookList/Book'
+//import Book from '../BookList/Book'
+import BookList from '../BookList/BookList'
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
           </p>
           <SearchForm/>
         </div>
-        <Book/>
+        <BookList/>
       </header>
       
     </div>

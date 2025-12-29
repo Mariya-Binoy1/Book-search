@@ -7,7 +7,7 @@ import './BookList.css'
 
 //https://covers.openlibrary.org/b/id/240727-S.jpg
 
-const Book = () => {
+const BookList= () => {
   const {books,loading,resultTitle}=useGlobalContext()
   const booksWithCovers=books.map((singleBook)=>{
     return{
@@ -42,4 +42,4 @@ const Book = () => {
   )
 }
 
-export default Book
+export default BookList
